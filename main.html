@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <title>1900273김다희</title>
+  <style type="text/css">
+    
+    #contain{
+        margin:0px auto; 
+        width:480px; 
+
+    }
+
+    #layout{
+        margin:0px auto; 
+        width:460px; 
+        border:solid 1px black; 
+        padding:10px;
+        position: relative;
+     }
+
+    #title{
+        margin:0px auto; 
+        width:460px; 
+        height: 35px;
+        border:solid 1px black;
+        background-color: rgb(247, 120, 98);
+        padding:10px;
+
+    }
+
+    #search{
+        margin:0px auto; 
+        width:460px;
+        height:30px; 
+        border:solid 1px black;
+        background-color: lightgray;
+        padding:10px;
+    }
+
+    .search2{
+        margin:0px auto; 
+        width:440px; 
+        height:30px; 
+        border:solid 1px rgb(150, 148, 148);
+        background-color: rgb(150, 148, 148);
+    }
+
+    #bottom{
+        margin:0px auto; 
+        width:460px;
+        height:60px; 
+        border:solid 1px black;
+        background-color:rgb(233, 233, 233);
+        padding: 0px 10px;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    .menu{
+         margin:0px 2px 10px 5px;
+         height:25px; 
+         width:80px; 
+         border:solid 2px rgb(83, 83, 83);
+         border-radius:5px;
+         float:left;
+    }
+    .menu:hover{
+        margin:0px 2px 10px 5px;
+        height:25px; 
+        width:80px; 
+        border:solid 2px rgb(83, 83, 83);
+        border-radius:5px;
+        float:left;
+        background-color: rgb(252, 199, 174);
+    }
+
+    .titlebox{
+        width:80px; 
+        margin:0px 0px 0px 100px; 
+        padding:0px 0px 20px; 
+        float:left;
+    }
+    .menubox{
+        width:30px; 
+        margin:2px; 
+        float:left;
+    }
+
+    .um{
+        width:20px; 
+        margin:3px 0px 0px 210px; 
+        float:left;
+    }
+
+    .am{
+        margin:10px 5px auto;
+    }
+
+    .udm{
+        width:35px; 
+        margin:0px 400px auto;
+    }
+    .lom{
+        width:35px; 
+        margin:0px 0px 0px 5px;
+        float:left;
+    }
+    .dm{
+        width:35px;
+        margin:5px 200px auto;
+    }
+    .fm{
+        width:80px;
+        height: 30px;
+        margin:10px 180px auto;
+    }
+    .up{
+        width:35px;
+        margin:0px 400px auto;
+    }
+
+    h5.w {
+        margin:3px 13px auto;
+    }
+    h5.w2 {
+        margin:3px 6px auto;
+    }
+    h4.w3 {
+        margin:6px 20px auto;
+        float:left;
+    }
+    h2.w4 {
+        margin:25px 35px auto;
+    }
+    h2.w5 {
+        margin:25px 59px auto;
+    }
+    .w6 {
+        margin:12px 15px auto;
+    }
+    .w7 {
+        margin:5px 8px auto;
+    }
+    body{margin:0 auto;}
+
+    .area{
+        margin:10px auto;
+        width:440px; 
+        height:35px; 
+        border:solid 1px;
+    }
+
+    .contents{
+        margin:20px auto;
+        width:440px; 
+        height:200px;
+    }
+    .contents2{
+        margin:50px auto;
+        width:410px; 
+        height:200px;
+    }
+    .contents3{
+        margin:10px auto;
+        width:380px; 
+        height:50px;
+    }
+    .sort1{
+         margin:10px 10px 10px 16px;
+         height:80px; 
+         width:190px; 
+         border:solid 1px;
+         float:left;
+    }
+    .sort1:hover{
+         margin:10px 10px 10px 16px;
+         height:80px; 
+         width:190px; 
+         border:solid 1px;
+         float:left;
+         background-color: rgb(252, 199, 174);
+    }
+    .sort2{
+         margin:0px auto;
+         height:45px; 
+         width:410px; 
+         border:solid 1px;
+    }
+    .sort2:hover{
+         margin:0px auto;
+         height:45px; 
+         width:410px; 
+         border:solid 1px;
+         background-color: rgb(252, 199, 174);
+    }
+    .chain1{
+         margin:0px auto;
+         height:100px; 
+         width:100px; 
+         float: left;
+         border:solid 1px;
+    }
+    
+    .chain2{
+         margin:0px auto;
+         height:100px; 
+         width:202px; 
+         float: left;
+         border:solid 1px;
+    }
+    .infor{
+         margin:0px 6px auto;
+         height:30px; 
+         width:80px; 
+         float: left;
+         border:solid 1px;
+    }
+    .bmenu{
+        margin:5px 20px auto;
+         height:50px; 
+         width:50px; 
+         float: left;
+    }
+
+    .notice{
+         margin:0px auto;
+         height:35px; 
+         width:400px; 
+    }
+    .footer{
+         margin:0px auto;
+         height:30px; 
+         width:225px;
+         font-size: 12px; 
+    }
+    .z{
+        width:6px; 
+        margin:0px 5px; 
+        float: right;
+    }
+
+  </style>
+ </head>
+<body>
+<div id="contain">
+
+    <div id="title">
+        <div class="menubox"><img src="menu.png" alt="메뉴"></div>
+        <a href="main.html">
+            <div class="titlebox"><img src="title.png" alt="앱이름-job to money"></div>
+        </a>
+        <div class="um"><img src="user.png" alt="사용자아이콘"></div>
+        <div class="z"><img src="number.png" alt="사용자알림"></div>
+    </div>
+
+    <div id="search">
+        <div class="search2"> 
+            <div class="um"><img src="search.png" alt="돋보기아이콘"></div>
+        </div>   
+    </div>
+
+    <div id="layout">
+        <div> 
+            <div class="menu">
+                <a href="fit.html"><h5 class="w">맞춤알바</h5></a>
+            </div>
+
+            <div class="menu">
+                <a href="correct.html"><h5 class="w">정확알바</h5></a>
+            </div>
+
+            <div class="menu">
+                <a href="map.html"><h5 class="w">알바지도</h5></a>
+            </div>
+
+            <div class="menu">
+                <h5 class="w2">다후기알바</h5>
+            </div>
+
+            <div class="menu">
+                <a href="point.html"><h5 class="w">지정알바</h5></a>
+            </div>
+        </div>
+
+        <div class="am"><img src="adv2.png" alt="알바광고사진"></div>
+
+        <div class="area">
+            <div class="lom"><img src="location.png" alt="지역표시아이콘""></div>
+            <h4 class="w3">서울 > 전체</h4>
+            <div class="udm"><img src="updown.png" alt="지역더보기"></div>
+        </div>
+
+        <div class="contents"> 
+            <div class="sort1">
+                <h2 class="w4">외식ㆍ음료</h2>
+            </div>
+            <div class="sort1">
+                <h2 class="w4">문화ㆍ여가</h2>
+            </div>
+            <div class="sort1">
+                <h2 class="w5">서비스</h2>
+            </div>
+            <div class="sort1">
+                <h2 class="w5">사무직</h2>
+            </div>
+        </div>
+
+        <div class="contents"> 
+            <div class="sort2">
+                <div class="w6">쿠팡&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(주단위정산/당일지원가능/당일업무가능)</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">ADT캡스&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(월130만이상/야간업무/보안장애접수)</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">삼성카드&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(월220만이상/단일업무/상담사원모집)</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">배민커넥트&nbsp;(자율근무/킥보드&오토바이 배달라이더)</div>
+            </div>
+            <div class="dm">
+                <img src="more.png" alt="알바정보 더보기">
+            </div>
+        </div>
+
+        <div class="contents2">
+            
+            <div class="chain1">
+                <img src="kfc2.jpg" alt="kfc 로고">
+            </div>
+            <div class="chain1">
+                <img src="burgerking.png" alt="버거킹 로고">
+            </div>
+            <div class="chain1">
+                <img src="starbucks.jpg" alt="스타벅스 로고">
+            </div>
+            <div class="chain1">
+                <img src="baskin.png" alt="배스킨라빈스 로고">
+            </div>
+            <div class="chain2">
+                <img src="subway.jpg" alt="서브웨이 로고">
+            </div>
+            <div class="chain2">
+                <img src="papajohns.png" alt="파파존스 로고">
+            </div>
+            
+        </div>
+
+        <div class="contents"> 
+            <div class="notice">
+                &nbsp;&nbsp;&nbsp;<b>공지</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 하계 관공서알바 채용관 오픈!
+                <hr></div>
+                <br>
+                <div class="contents3"> 
+                    <div class="infor"><div class="w7">로그아웃</div></div>
+                    <div class="infor"><div class="w7">회원정보</div></div>
+                    <div class="infor"><div class="w7">고객센터</div></div>
+                    <div class="infor"><div class="w7">앱가이드</div></div>
+                </div>
+                <div class="footer">
+                    회원약관 ㆍ <b>개인정보처리방침</b> ㆍ PC버전
+                </div>
+
+                <div class="fm">
+                    <img src="me.png" alt="만든사람">    
+                </div>
+            </div>
+
+            <a href="#top">
+                <div class="up">
+                    <img src="top.png" alt="위로 올라가기">
+                </div>
+            </a><br><br><br>
+            
+        </div>
+        <div id="bottom">
+            <div class="bmenu">
+                <a href="main.html">
+                    <img src="home1.png" alt="홈으로 돌아가기">
+                </a>
+            </div>
+            <div class="bmenu">
+                <img src="back1.png" alt="이전 페이지로 돌아가기">
+            </div>
+            <div class="bmenu">
+                <img src="star1.png" alt="추천알바 페이지로 이동">
+            </div>
+            <div class="bmenu">
+                <img src="resent1.png" alt="최근 본 페이지로 돌아가기">
+            </div>
+            <div class="bmenu">
+                <img src="talk1.png" alt="후기페이지로 이동">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>    

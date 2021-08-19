@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <meta charset="UTF-8">
+     <title>1900273김다희</title>
+  <style type="text/css">
+    
+    #contain{
+        margin:0px auto; 
+        width:460px; 
+        padding:10px;
+    }
+
+    #layout{
+        margin:0px auto; 
+        width:460px; 
+        border:solid 1px black; 
+        padding:10px;
+        position: relative;
+     }
+
+    #title{
+        margin:0px auto; 
+        width:460px; 
+        height: 35px;
+        border:solid 1px black;
+        background-color: rgb(247, 120, 98);
+        padding:10px;
+
+    }
+
+    #search{
+        margin:0px auto; 
+        width:460px;
+        height:30px; 
+        border:solid 1px black;
+        background-color: lightgray;
+        padding:10px;
+    }
+
+    .search2{
+        margin:0px auto; 
+        width:440px; 
+        height:30px; 
+        border:solid 1px rgb(150, 148, 148);
+        background-color: rgb(150, 148, 148);
+    }
+    .search3{
+        margin:0px auto; 
+        width:400px; 
+        height:30px; 
+        border:solid 1px rgba(252, 117, 54, 0.432);
+        background-color: rgba(252, 117, 54, 0.432);
+    }
+
+    #bottom{
+        margin:0px auto; 
+        width:460px;
+        height:60px; 
+        border:solid 1px black;
+        background-color:rgb(233, 233, 233);
+        padding: 0px 10px;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    .menu{
+        margin:0px 2px 10px 5px;
+        height:25px; 
+        width:80px; 
+        border:solid 2px rgb(83, 83, 83);
+        border-radius:5px;
+        float:left;
+    }
+    .menu:hover{
+        margin:0px 2px 10px 5px;
+        height:25px; 
+        width:80px; 
+        border:solid 2px rgb(83, 83, 83);
+        border-radius:5px;
+        float:left;
+        background-color: rgb(252, 199, 174);
+    }
+
+
+    .titlebox{
+        width:80px; 
+        margin:0px 0px 0px 100px; 
+        padding:0px 0px 20px; 
+        float:left;
+    }
+    .menubox{
+        width:30px; 
+        margin:2px; 
+        float:left;
+    }
+
+    .um{
+        width:20px; 
+        margin:3px 0px 0px 210px; 
+        float:left;
+    }
+    .sm{
+        width:20px; 
+        margin:5px 10px; 
+        float:right;
+    }
+
+
+    .lom{
+        width:35px; 
+        margin:3px auto;
+        float:right;
+    }
+    .dm{
+        width:35px;
+        margin:5px 200px auto;
+    }
+    .fm{
+        width:80px;
+        height: 30px;
+        margin:10px 180px auto;
+    }
+    .up{
+        width:35px;
+        margin:0px 400px auto;
+    }
+
+    h5.w {
+        margin:3px 13px auto;
+    }
+    h5.w2 {
+        margin:3px 6px auto;
+    }
+    h4.w3 {
+        margin:10px 20px auto;
+    }
+    h3.w4 {
+        margin:35px 25px auto;
+    }
+    h3.w5 {
+        margin:15px 55px auto;
+    }
+    .w6 {
+        margin:12px 15px auto;
+    }
+    .w7 {
+        margin:5px 8px auto;
+    }
+    body{margin:0 auto;}
+    .area{
+        margin:0px auto;
+        width:440px; 
+        height:70px; 
+    }
+    .area1{
+        margin:0px 12px auto;
+        width:120px; 
+        height:50px; 
+        float: left;
+    }
+    .area2{
+        margin:0px auto;
+        width:345px; 
+        height:70px; 
+    }
+    .area3{
+        margin:10px 12px auto;
+        width:120px; 
+        height:50px; 
+        border:solid 1px;
+        text-align: center;
+        float: left;
+    }
+    .am{
+        margin:10px auto;
+        width:440px; 
+        height:510px; 
+    }
+
+    .contents{
+        margin:10px auto;
+        width:440px; 
+        height:110px;
+        text-align: center;
+    }
+    .contents1{
+        margin:0px auto;
+        width:440px; 
+        height:240px;
+    }
+    .contents2{
+        margin:0px auto;
+        width:440px; 
+        height:400px;
+        text-align: center;
+    }
+    .contents3{
+        margin:0px auto;
+        width:380px; 
+        height:50px;
+    }
+    .sort1{
+        margin:0px 10px 10px 16px;
+        height:100px; 
+        width:190px; 
+        border:solid 1px;
+        float:left;
+        border-radius: 5px;
+        color: black;
+
+    }
+    .sort1:hover{
+        margin:0px 10px 10px 16px;
+        height:100px; 
+        width:190px; 
+        border:solid 1px;
+        float:left;
+        border-radius: 5px;
+        color: black;
+        background-color: rgb(252, 171, 134);
+    }
+
+    .sort2{
+         margin:0px auto;
+         height:45px; 
+         width:410px; 
+         border:solid 1px;
+    }
+    .sort2:hover{
+         margin:0px auto;
+         height:45px; 
+         width:410px; 
+         border:solid 1px;
+         background-color:rgb(252, 199, 174);
+    }
+    .infor{
+         margin:0px 6px auto;
+         height:30px; 
+         width:80px; 
+         float: left;
+         border:solid 1px;
+    }
+    .bmenu{
+        margin:5px 20px auto;
+         height:50px; 
+         width:50px; 
+         float: left;
+    }
+
+    .notice{
+         margin:0px auto;
+         height:50px; 
+         width:400px; 
+    }
+    .footer{
+         margin:0px auto;
+         height:30px; 
+         width:225px;
+         font-size: 12px; 
+    }
+    .place{
+        width:125px; 
+        height: 50px; 
+        font-weight: bold; 
+        font-size: 15px;
+        text-align-last: center;
+    }
+    .z{
+        width:6px; 
+        margin:0px 5px; 
+        float: right;
+    }
+
+
+  </style>
+ </head>
+<body>
+<div id="contain">
+    <div id="title">
+        <div class="menubox"><img src="menu.png" alt="메뉴"></div>
+        <a href="main.html">
+            <div class="titlebox"><img src="title.png" alt="앱이름-job to money"></div>
+        </a>
+        <div class="um"><img src="user.png" alt="사용자아이콘"></div>
+        <div class="z"><img src="number.png" alt="사용자알림"></div>
+    </div>
+
+    <div id="search">
+        <div class="search2"> 
+            <div class="um"><img src="search.png" alt="돋보기아이콘"></div>
+        </div>   
+    </div>
+
+    <div id="layout">
+        <div> 
+            <div class="menu">
+                <a href="fit.html"><h5 class="w">맞춤알바</h5></a>
+            </div>
+
+            <div class="menu">
+                <a href="correct.html"><h5 class="w">정확알바</h5></a>
+            </div>
+
+            <div class="menu">
+                <a href="map.html"><h5 class="w">알바지도</h5></a>
+            </div>
+
+            <div class="menu">
+                <h5 class="w2">다후기알바</h5>
+            </div>
+
+            <div class="menu">
+                <a href="point.html"><h5 class="w">지정알바</h5></a>
+            </div>
+        </div>
+
+        <div class="am"><img src="map.png" alt="지도"></div>
+
+        <div class="area">
+
+            <div class="area1">           
+                <select class="place" name="gu">
+                    <option>서울시</option>
+                    <option>경기도</option>
+                    <option>인천시</option>
+                    <option>부산시</option>
+                    <option>대전시</option>
+                    <option>대구시</option>
+                    <option>울산시</option>
+                    <option>세종시</option>
+                    <option>광주시</option>
+                </select>
+            </div>
+            
+            <div class="area1">           
+                <select class="place" name="gu">
+                    <option>성동구</option>
+                    <option>광진구</option>
+                    <option>강서구</option>
+                    <option>강남구</option>
+                    <option>용산구</option>
+                    <option>송파구</option>
+                </select>
+            </div>
+
+            <div class="area1">           
+                <select class="place" name="gu">
+                    <option>전체</option>
+                    <option>성수동</option>
+                    <option>응봉동</option>
+                    <option>금호동</option>
+                    <option>용답동</option>
+                    <option>마장동</option>
+                    <option>사근동</option>
+                    <option>옥수동</option>
+                    <option>행당동</option>
+                    <option>상왕십리동</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="contents2"> 
+            <div class="sort2">
+                <div class="w6">CGV왕십리&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 수목 오픈 미소지기 모집 ]</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">다이소 한양대점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 하루 2시간/투잡가능 ]</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">스타벅스 한양대점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 바리스타 모집 ]</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">이마트 왕십리점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 행사/맥주시음 ]</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">세븐일레븐 한양대병원점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 주중 아르바이트 ]</div>
+            </div>
+            <div class="sort2">
+                <div class="w6">서브웨이 왕십리점&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ 월수 미들 근무 ]</div>
+            </div>
+            
+
+            <div class="dm">
+                <img src="more.png" alt="알바정보 더보기">
+            </div>
+        </div>
+
+        
+
+        <div class="contents1"> 
+            <div class="notice">
+                &nbsp;&nbsp;&nbsp;<b>공지</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2020년 6월 신규회원 이벤트
+                <hr></div>
+                <br>
+                <div class="contents3"> 
+                    <div class="infor"><div class="w7">로그아웃</div></div>
+                    <div class="infor"><div class="w7">회원정보</div></div>
+                    <div class="infor"><div class="w7">고객센터</div></div>
+                    <div class="infor"><div class="w7">앱가이드</div></div>
+                </div>
+                <div class="footer">
+                    회원약관 ㆍ <b>개인정보처리방침</b> ㆍ PC버전
+                </div>
+
+                <div class="fm">
+                    <img src="me.png" alt="만든사람">    
+                </div>
+
+                <a href="#top">
+                    <div class="up">
+                        <img src="top.png" alt="위로 올라가기">
+                    </div>
+                </a>
+                <br><br><br>
+            </div>
+
+
+        </div>
+        <div id="bottom">
+            <div class="bmenu">
+                <a href="main.html">
+                    <img src="home1.png" alt="홈으로 돌아가기">
+                </a>
+            </div>
+            <div class="bmenu">
+                <img src="back1.png" alt="이전 페이지로 돌아가기">
+            </div>
+            <div class="bmenu">
+                <img src="star1.png" alt="추천알바 페이지로 이동">
+            </div>
+            <div class="bmenu">
+                <img src="resent1.png" alt="최근 본 페이지로 돌아가기">
+            </div>
+            <div class="bmenu">
+                <img src="talk1.png" alt="후기페이지로 이동">
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>    
